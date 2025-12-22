@@ -27,7 +27,6 @@
               "features/trade-journal",
               "features/chart-gallery",
               "features/image-annotations",
-              "features/broker-sync",
               "features/pattern-library",
               "features/strategies",
               "features/trade-sharing"
