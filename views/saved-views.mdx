@@ -1,0 +1,118 @@
+---
+title: "Saved Views"
+description: "One-click access to your favorite filter combinations"
+icon: "bookmark"
+---
+
+## Overview
+
+Saved Views let you store your filter, sort, and display configurations for instant recall. Instead of manually setting up the same filters every time, save them once and switch with a single click.
+
+## Creating a Saved View
+
+<Steps>
+  <Step title="Set up your filters">
+    Configure the filters, sort order, and display settings you want to save.
+  </Step>
+  <Step title="Click Save View">
+    Click the **Save View** button in the toolbar.
+  </Step>
+  <Step title="Name your view">
+    Enter a descriptive name (e.g., "Last Week's Losses", "AAPL Trades", "Unreviewed").
+  </Step>
+  <Step title="Save">
+    Click Save. Your view is now available in the views dropdown.
+  </Step>
+</Steps>
+
+## What Gets Saved
+
+A Saved View stores:
+
+- **Filters** - All active filter selections
+- **Sort order** - Column and direction
+- **View type** - List, Board, or Table
+- **Display settings** - Card options, grid columns
+
+## Loading a Saved View
+
+1. Click the **Views** dropdown in the toolbar
+2. Select your saved view
+3. All settings are instantly applied
+
+## Managing Saved Views
+
+### Set as Default
+
+Make a view load automatically when you open Trades:
+1. Load the view
+2. Click the star icon to set as default
+
+### Rename
+
+1. Click the edit icon next to the view name
+2. Enter a new name
+3. Save
+
+### Delete
+
+1. Click the trash icon next to the view
+2. Confirm deletion
+
+<Warning>
+  Deleting a saved view cannot be undone.
+</Warning>
+
+## Example Saved Views
+
+### Review Workflow
+
+| View Name | Filters |
+|-----------|---------|
+| **To Review** | Status = "To Review", Sort by Date (oldest first) |
+| **This Week** | Date = Last 7 days |
+| **Needs Work** | Status = "Needs Work" |
+
+### Analysis Views
+
+| View Name | Filters |
+|-----------|---------|
+| **Winners** | Result = Win |
+| **Losers** | Result = Loss |
+| **Best Trades** | Rating ≥ 4 stars |
+
+### Symbol-Specific
+
+| View Name | Filters |
+|-----------|---------|
+| **SPY Trades** | Symbol = SPY |
+| **Tech Stocks** | Tags = "Tech" |
+| **Futures** | Tags = "Futures" |
+
+## Tips for Effective Views
+
+<AccordionGroup>
+  <Accordion title="Create workflow views" icon="arrow-right">
+    Create a view for each step in your review process: "To Review" → "In Progress" → "Done".
+  </Accordion>
+  <Accordion title="Use descriptive names" icon="tag">
+    Names like "Last Week Winners" are clearer than "View 1".
+  </Accordion>
+  <Accordion title="Keep views focused" icon="bullseye">
+    Each view should serve a specific purpose. Don't try to combine too many filters.
+  </Accordion>
+  <Accordion title="Set a useful default" icon="star">
+    Your default view should be what you need most often - usually "Recent" or "To Review".
+  </Accordion>
+</AccordionGroup>
+
+## Related Features
+
+<CardGroup cols={2}>
+  <Card title="Advanced Filtering" icon="filter" href="/views/advanced-filtering">
+    Learn about all available filters.
+  </Card>
+  <Card title="Display Settings" icon="sliders" href="/customization/display-settings">
+    Customize what appears on trade cards.
+  </Card>
+</CardGroup>

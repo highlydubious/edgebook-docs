@@ -1,0 +1,146 @@
+---
+title: "Extension Installation"
+description: "Install and set up the EdgeBook Chrome Extension"
+icon: "download"
+---
+
+## Installation Steps
+
+<Steps>
+  <Step title="Visit Chrome Web Store">
+    Go to the [EdgeBook Extension](https://chrome.google.com/webstore) on the Chrome Web Store.
+
+    <Note>
+      Search for "EdgeBook" or "EdgeBook Trading Journal" if the direct link doesn't work.
+    </Note>
+  </Step>
+
+  <Step title="Click Add to Chrome">
+    Click the **Add to Chrome** button on the extension page.
+  </Step>
+
+  <Step title="Confirm Installation">
+    A popup will ask for permissions. Click **Add extension** to confirm.
+  </Step>
+
+  <Step title="Pin the Extension">
+    Click the puzzle piece icon in Chrome's toolbar, then click the pin icon next to EdgeBook.
+  </Step>
+</Steps>
+
+## First-Time Setup
+
+After installation, you need to connect your EdgeBook account:
+
+1. Click the EdgeBook icon in your toolbar
+2. Click **Sign In**
+3. Log in with your EdgeBook credentials
+4. The extension is now connected
+
+<Tip>
+  You only need to sign in once. The extension remembers your session.
+</Tip>
+
+## Permissions Explained
+
+The extension requests these permissions:
+
+| Permission | Why It's Needed |
+|------------|-----------------|
+| **Read TradingView** | To detect the current symbol and capture charts |
+| **Storage** | To save your preferences and session |
+| **Tabs** | To know when you're on TradingView |
+
+<Note>
+  The extension can only read data from TradingView pages - it cannot access any other websites.
+</Note>
+
+## Using the Extension
+
+### Capturing a Trade
+
+1. Open any chart on TradingView
+2. Set up your chart with annotations, drawings, indicators
+3. Click the EdgeBook extension icon
+4. Your chart is automatically screenshotted
+5. Fill in the trade details:
+   - Direction (Long/Short)
+   - Entry price
+   - Stop loss / Take profit
+   - Notes and tags
+6. Click **Save Trade**
+
+### Quick Capture vs Full Form
+
+**Quick Capture** (default):
+- Screenshot + Symbol only
+- Add details later in EdgeBook
+
+**Full Form**:
+- Fill all details in the popup
+- More complete trade record
+
+Toggle between modes in extension settings.
+
+## Troubleshooting
+
+<AccordionGroup>
+  <Accordion title="Extension not showing on TradingView" icon="eye-slash">
+    1. Make sure you're on `tradingview.com`
+    2. Refresh the page
+    3. Check if the extension is enabled in `chrome://extensions`
+  </Accordion>
+
+  <Accordion title="Screenshot is blank or wrong" icon="image">
+    1. Wait for the chart to fully load
+    2. Make sure no dialogs or popups are open
+    3. Try zooming out if the chart is very large
+  </Accordion>
+
+  <Accordion title="Can't sign in" icon="lock">
+    1. Check your EdgeBook credentials at edgebook.io
+    2. Clear extension data and try again
+    3. Make sure you have an active subscription
+  </Accordion>
+
+  <Accordion title="Trade not appearing in EdgeBook" icon="cloud-xmark">
+    1. Check your internet connection
+    2. Verify you're signed into the extension
+    3. Look in the "Recent" or "All" view - might be filtered out
+  </Accordion>
+
+  <Accordion title="Symbol not auto-detected" icon="magnifying-glass">
+    1. Make sure a chart is open (not just the homepage)
+    2. The symbol appears in TradingView's title bar
+    3. Try refreshing the page
+  </Accordion>
+</AccordionGroup>
+
+## Updating the Extension
+
+Chrome automatically updates extensions. To manually check:
+
+1. Go to `chrome://extensions`
+2. Enable **Developer mode** (top right)
+3. Click **Update**
+
+## Uninstalling
+
+If you need to remove the extension:
+
+1. Right-click the EdgeBook icon in your toolbar
+2. Select **Remove from Chrome**
+3. Confirm removal
+
+Your trades in EdgeBook are not affected - they remain in your account.
+
+## Related
+
+<CardGroup cols={2}>
+  <Card title="Extension Overview" icon="puzzle-piece" href="/chrome-extension/overview">
+    Learn what the extension can do.
+  </Card>
+  <Card title="Your First Trade" icon="plus" href="/getting-started/first-trade">
+    Complete guide to logging trades.
+  </Card>
+</CardGroup>

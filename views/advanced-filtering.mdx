@@ -1,0 +1,142 @@
+---
+title: "Advanced Filtering"
+description: "Find any trade in seconds with powerful filters"
+icon: "filter"
+---
+
+## Overview
+
+EdgeBook's filtering sidebar lets you slice and dice your trade data with precision. Combine multiple filters to find exactly the trades you're looking for.
+
+## Filter Categories
+
+### Result
+
+Filter by trade outcome:
+- **Win** - Profitable trades
+- **Loss** - Losing trades
+- **Breakeven** - No profit or loss
+- **Open** - Currently active trades
+
+### Direction
+
+Filter by position type:
+- **Long** - Buy positions
+- **Short** - Sell/short positions
+
+### Workflow Status
+
+Filter by your custom statuses:
+- Select one or multiple statuses
+- Great for finding unreviewed trades
+
+### Execution Type
+
+Filter by how the trade was executed:
+- **Real** - Actual money trades
+- **Paper** - Simulated trades
+- **Watched** - Trades you observed but didn't take
+
+### Tags
+
+Filter by applied tags:
+- Multi-select supported
+- Find trades with specific characteristics
+
+### Symbols
+
+Filter by ticker symbol:
+- Multi-select supported
+- Find all trades for a specific instrument
+
+### Setups
+
+Filter by strategy setup:
+- Linked to your Strategies
+- See performance by setup type
+
+### Traders
+
+Filter by trader (if using multi-trader):
+- Useful for teams
+- Separate your own trades from others
+
+### Rating
+
+Filter by minimum rating:
+- Slider from 1-5 stars
+- Find your highest-quality trades
+
+### Date Range
+
+Filter by trade date:
+- **Presets**: Today, Yesterday, Last Week, Last Month, Last Quarter, Last Year
+- **Custom**: Select specific start and end dates
+
+## Combining Filters
+
+Filters work together with AND logic:
+
+**Example**: Find all winning long trades in AAPL from last month
+1. Set Result = Win
+2. Set Direction = Long
+3. Set Symbol = AAPL
+4. Set Date = Last Month
+
+Only trades matching ALL criteria will appear.
+
+## Reordering Filter Sections
+
+Drag filter sections to reorder them:
+1. Hover over a section header
+2. Drag up or down
+3. Release to set new position
+
+<Tip>
+  Put your most-used filters at the top for quick access.
+</Tip>
+
+## Clearing Filters
+
+- **Clear one filter**: Click the X on that filter
+- **Clear all filters**: Click "Clear All" at the top of the sidebar
+
+## Filter Persistence
+
+Filters remain active as you:
+- Switch between views (List, Board, Table)
+- Open and close trade details
+- Navigate within the Trades section
+
+Filters reset when you:
+- Navigate to a different section (Patterns, Strategies)
+- Refresh the page
+- Load a different Saved View
+
+## Best Practices
+
+<AccordionGroup>
+  <Accordion title="Use date filters for reviews" icon="calendar">
+    Filter to "Last Week" every Monday to review the previous week's trades.
+  </Accordion>
+  <Accordion title="Analyze by setup" icon="chess">
+    Filter by specific setups to see which strategies perform best.
+  </Accordion>
+  <Accordion title="Find patterns in losses" icon="magnifying-glass">
+    Filter to losses only and look for common characteristics.
+  </Accordion>
+  <Accordion title="Save common combinations" icon="bookmark">
+    Use Saved Views to store filter combinations you use frequently.
+  </Accordion>
+</AccordionGroup>
+
+## Related Features
+
+<CardGroup cols={2}>
+  <Card title="Saved Views" icon="bookmark" href="/views/saved-views">
+    Save your filter combinations.
+  </Card>
+  <Card title="Workflow Statuses" icon="list-check" href="/customization/workflow-statuses">
+    Create statuses to filter by.
+  </Card>
+</CardGroup>

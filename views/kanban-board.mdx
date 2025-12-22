@@ -1,0 +1,108 @@
+---
+title: "Kanban Board"
+description: "Visual workflow management with drag-and-drop columns"
+icon: "columns-3"
+---
+
+## Overview
+
+The Kanban Board view transforms your trade journal into a visual workflow management system. See all your trades organized by status, and drag them between columns as you progress through your review process.
+
+## Accessing the Kanban Board
+
+1. Navigate to the **Trades** section
+2. Click the **Board** view toggle in the top navigation
+3. Your trades appear organized by workflow status
+
+## How It Works
+
+### Columns
+
+Each column represents a workflow status:
+- Columns are automatically created from your custom statuses
+- The column order matches your status order in settings
+- Each column shows a count of trades
+
+### Cards
+
+Trade cards display:
+- Trade title and symbol
+- Date and result
+- Rating (if set)
+- First image thumbnail
+
+### Drag and Drop
+
+Move trades between columns:
+1. Click and hold a trade card
+2. Drag it to a different column
+3. Release to update the status
+
+<Tip>
+  The status change is saved automatically when you drop the card.
+</Tip>
+
+## Compact Mode
+
+Toggle **Compact Mode** to show more trades per column:
+- Smaller card sizes
+- Less detail per card
+- More trades visible at once
+
+## Workflow Examples
+
+### Trade Review Workflow
+
+```
+To Review → In Progress → Needs Work → Reviewed → Done
+```
+
+### Simple Workflow
+
+```
+New → Reviewed → Archived
+```
+
+### Learning Workflow
+
+```
+Logged → Analyzed → Lesson Extracted → Applied
+```
+
+## Customizing Columns
+
+Columns are based on your workflow statuses. To add, remove, or reorder columns:
+
+1. Go to **Manage** > **Statuses**
+2. Add new statuses for new columns
+3. Drag to reorder
+4. Delete statuses to remove columns
+
+<Note>
+  Trades in a deleted status column will still exist but won't appear on the board until reassigned.
+</Note>
+
+## Best Practices
+
+<AccordionGroup>
+  <Accordion title="Limit work in progress" icon="hand">
+    Don't let too many trades pile up in "In Progress" columns. Complete reviews before starting new ones.
+  </Accordion>
+  <Accordion title="Use meaningful statuses" icon="tags">
+    Create statuses that match your actual review process. Generic statuses like "Status 1" aren't helpful.
+  </Accordion>
+  <Accordion title="Regular board reviews" icon="calendar">
+    Check your board daily or weekly to keep trades moving through your workflow.
+  </Accordion>
+</AccordionGroup>
+
+## Related Features
+
+<CardGroup cols={2}>
+  <Card title="Workflow Statuses" icon="list-check" href="/customization/workflow-statuses">
+    Customize the columns on your board.
+  </Card>
+  <Card title="Advanced Filtering" icon="filter" href="/views/advanced-filtering">
+    Filter which trades appear on the board.
+  </Card>
+</CardGroup>

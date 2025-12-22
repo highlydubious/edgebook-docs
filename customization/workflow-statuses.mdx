@@ -1,0 +1,134 @@
+---
+title: "Workflow Statuses"
+description: "Create custom statuses for your trade review workflow"
+icon: "list-check"
+---
+
+## Overview
+
+Workflow Statuses let you track where each trade is in your review process. Create custom statuses that match how you actually work, then filter and organize trades by status.
+
+## Default Statuses
+
+EdgeBook comes with basic statuses, but you can fully customize them:
+- To Review
+- Reviewed
+- Archived
+
+## Managing Statuses
+
+### Accessing Status Management
+
+1. Go to **Manage** in the sidebar
+2. Click **Statuses**
+
+### Creating a Status
+
+1. Click **+ Add Status**
+2. Enter a name (e.g., "Needs Work", "In Progress")
+3. Choose a color
+4. Click Save
+
+### Editing a Status
+
+1. Click on a status in the list
+2. Modify the name or color
+3. Click Save
+
+### Reordering Statuses
+
+Drag and drop statuses to change their order:
+- The order affects Kanban Board column arrangement
+- First status is often the default for new trades
+
+### Deleting a Status
+
+1. Click the trash icon on a status
+2. Confirm deletion
+
+<Warning>
+  Trades with a deleted status will need to be reassigned to another status.
+</Warning>
+
+## Status Colors
+
+Choose colors that make sense for your workflow:
+
+| Status Type | Suggested Color |
+|-------------|-----------------|
+| New/Pending | Blue |
+| In Progress | Yellow |
+| Needs Work | Red/Orange |
+| Reviewed/Done | Green |
+| Archived | Gray |
+
+## Example Workflows
+
+### Simple Review
+
+```
+To Review → Reviewed → Done
+```
+
+### Detailed Analysis
+
+```
+Logged → In Review → Analyzed → Lesson Captured → Applied
+```
+
+### Team Workflow
+
+```
+New → Assigned → In Progress → Review → Approved
+```
+
+### Learning Focus
+
+```
+Raw → Analyzed → Pattern Found → Backtested → Incorporated
+```
+
+## Using Statuses
+
+### On Individual Trades
+
+Set or change status in the trade detail view:
+1. Open a trade
+2. Click the status dropdown
+3. Select a new status
+
+### In Bulk (Kanban Board)
+
+Drag trades between columns to change status instantly.
+
+### For Filtering
+
+Use the Status filter in the sidebar to show only trades with specific statuses.
+
+## Best Practices
+
+<AccordionGroup>
+  <Accordion title="Match your actual process" icon="check">
+    Create statuses for steps you actually do. Don't add statuses just because they seem like good ideas.
+  </Accordion>
+  <Accordion title="Keep it simple" icon="minimize">
+    3-5 statuses is usually enough. Too many creates confusion.
+  </Accordion>
+  <Accordion title="Use action words" icon="play">
+    "To Review" is clearer than "Review". "In Progress" is better than "Progress".
+  </Accordion>
+  <Accordion title="Review and refine" icon="arrows-rotate">
+    After using your workflow for a while, remove statuses you don't use and add ones you need.
+  </Accordion>
+</AccordionGroup>
+
+## Related Features
+
+<CardGroup cols={2}>
+  <Card title="Kanban Board" icon="columns-3" href="/views/kanban-board">
+    See statuses as columns.
+  </Card>
+  <Card title="Advanced Filtering" icon="filter" href="/views/advanced-filtering">
+    Filter trades by status.
+  </Card>
+</CardGroup>

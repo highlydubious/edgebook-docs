@@ -22,7 +22,7 @@
             ]
           },
           {
-            "group": "Features",
+            "group": "Core Features",
             "pages": [
               "features/trade-journal",
               "features/chart-gallery",
@@ -30,6 +30,32 @@
               "features/pattern-library",
               "features/strategies",
               "features/trade-sharing"
+            ]
+          },
+          {
+            "group": "Views & Organization",
+            "pages": [
+              "views/kanban-board",
+              "views/table-view",
+              "views/advanced-filtering",
+              "views/saved-views"
+            ]
+          },
+          {
+            "group": "Customization",
+            "pages": [
+              "customization/workflow-statuses",
+              "customization/execution-types",
+              "customization/tags",
+              "customization/traders",
+              "customization/display-settings"
+            ]
+          },
+          {
+            "group": "Chrome Extension",
+            "pages": [
+              "chrome-extension/overview",
+              "chrome-extension/installation"
             ]
           }
         ]

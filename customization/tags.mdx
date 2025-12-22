@@ -1,0 +1,153 @@
+---
+title: "Tags"
+description: "Flexible tagging for trade categorization"
+icon: "tags"
+---
+
+## Overview
+
+Tags provide flexible categorization for your trades. Unlike statuses which track workflow, tags describe characteristics of the trade itself - the setup type, market conditions, mistakes made, or any other attribute you want to track.
+
+## Creating Tags
+
+### From the Trade Form
+
+1. Open a trade (new or existing)
+2. Click in the Tags field
+3. Type a new tag name
+4. Press Enter to create it
+
+### From Tag Management
+
+1. Go to **Manage** > **Tags**
+2. Click **+ Add Tag**
+3. Enter name and choose color
+4. Click Save
+
+## Tag Colors
+
+Assign colors to make tags visually distinct:
+- Similar tags can share colors (all setup types in blue)
+- Warning tags in red/orange
+- Positive tags in green
+
+## Tag Ideas
+
+### By Setup Type
+
+- `breakout`
+- `pullback`
+- `reversal`
+- `gap-fill`
+- `trend-continuation`
+
+### By Market Condition
+
+- `trending`
+- `ranging`
+- `volatile`
+- `low-volume`
+- `news-driven`
+
+### By Session
+
+- `pre-market`
+- `open`
+- `mid-day`
+- `close`
+- `after-hours`
+
+### By Mistake/Lesson
+
+- `oversize`
+- `early-entry`
+- `late-exit`
+- `FOMO`
+- `revenge-trade`
+- `perfect-execution`
+
+### By Instrument Type
+
+- `stock`
+- `options`
+- `futures`
+- `forex`
+- `crypto`
+
+## Using Tags
+
+### Applying Multiple Tags
+
+A single trade can have many tags:
+- Setup: `breakout`
+- Condition: `trending`
+- Session: `open`
+- Quality: `A+ setup`
+
+### Filtering by Tags
+
+1. Open the filter sidebar
+2. Expand the Tags section
+3. Select one or more tags
+4. Only matching trades appear
+
+### Analyzing by Tags
+
+Use tag filters to answer questions like:
+- "How do my breakout trades perform?"
+- "Do I trade better in trending vs ranging markets?"
+- "What's my win rate on pre-market setups?"
+
+## Managing Tags
+
+### Editing Tags
+
+1. Go to **Manage** > **Tags**
+2. Click a tag to edit
+3. Change name or color
+4. Save
+
+### Merging Tags
+
+If you have duplicate tags (e.g., "breakout" and "Breakout"):
+1. Edit all trades with the duplicate tag
+2. Replace with the correct tag
+3. Delete the duplicate
+
+### Deleting Tags
+
+1. Go to **Manage** > **Tags**
+2. Click the trash icon
+3. Confirm deletion
+
+<Note>
+  Deleting a tag removes it from all trades that had it applied.
+</Note>
+
+## Best Practices
+
+<AccordionGroup>
+  <Accordion title="Be consistent with naming" icon="font">
+    Use lowercase, consistent naming: `breakout` not `Breakout` or `BREAKOUT`.
+  </Accordion>
+  <Accordion title="Don't over-tag" icon="triangle-exclamation">
+    3-5 tags per trade is usually enough. Too many tags become meaningless.
+  </Accordion>
+  <Accordion title="Create a tag taxonomy" icon="sitemap">
+    Decide on your tag categories upfront: setups, conditions, mistakes, etc.
+  </Accordion>
+  <Accordion title="Review tag usage" icon="chart-pie">
+    Periodically check which tags you actually use and remove unused ones.
+  </Accordion>
+</AccordionGroup>
+
+## Related Features
+
+<CardGroup cols={2}>
+  <Card title="Advanced Filtering" icon="filter" href="/views/advanced-filtering">
+    Filter trades by tags.
+  </Card>
+  <Card title="Pattern Library" icon="shapes" href="/features/pattern-library">
+    Tag patterns for organization.
+  </Card>
+</CardGroup>
