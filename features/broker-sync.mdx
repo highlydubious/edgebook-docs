@@ -1,0 +1,159 @@
+---
+title: "Broker Sync"
+description: "Automatically import trades from 50+ brokers via SnapTrade"
+icon: "link"
+---
+
+## Overview
+
+EdgeBook integrates with your brokerage account to automatically import your trades and orders. No more manual data entry - your executions are synced directly from your broker.
+
+<Note>
+  Broker sync is powered by [SnapTrade](https://snaptrade.com), a secure financial data aggregator that connects to 50+ brokers.
+</Note>
+
+## Supported Brokers
+
+EdgeBook supports a wide range of brokers through SnapTrade:
+
+### US Brokers
+- Charles Schwab
+- TD Ameritrade
+- Interactive Brokers
+- Fidelity
+- E*TRADE
+- Robinhood
+- Webull
+- Tastytrade
+- TradeStation
+- And many more...
+
+### International Brokers
+- Interactive Brokers (Global)
+- Questrade (Canada)
+- And others...
+
+<Tip>
+  Don't see your broker? [Contact us](mailto:support@edgebook.io) and we'll look into adding support.
+</Tip>
+
+## Connecting Your Account
+
+<Steps>
+  <Step title="Go to Settings">
+    Click your profile menu and select **Settings**, then navigate to the **Broker Connections** tab.
+  </Step>
+  <Step title="Add Connection">
+    Click **Connect Broker** to open the SnapTrade connection flow.
+  </Step>
+  <Step title="Select Your Broker">
+    Find and select your broker from the list.
+  </Step>
+  <Step title="Authorize Access">
+    Log in to your broker account and authorize EdgeBook to access your trade data. This is read-only access - EdgeBook cannot place trades.
+  </Step>
+  <Step title="Select Accounts">
+    Choose which accounts to sync. You can connect multiple accounts from the same broker.
+  </Step>
+</Steps>
+
+## Synced Data
+
+Once connected, EdgeBook imports:
+
+### Trades
+- Symbol and direction
+- Entry and exit prices
+- Quantity and position size
+- Execution timestamps
+- Realized P&L
+
+### Orders
+- Order type (market, limit, stop)
+- Fill prices and quantities
+- Order status
+- Timestamps
+
+## Viewing Broker Data
+
+### Orders View
+
+Access imported orders from the **Orders** tab in the sidebar:
+
+- View all executions across connected accounts
+- Filter by account, symbol, or date
+- See detailed order information
+
+### Linking to Journal Entries
+
+Connect broker-imported trades to your journal entries:
+
+1. Open a trade in your journal
+2. Click **Link Broker Trade**
+3. Select the matching execution from your broker data
+4. The trade is now linked with accurate P&L data
+
+## Account Management
+
+### Multiple Accounts
+
+You can connect multiple brokerage accounts:
+- Different brokers
+- Multiple accounts at the same broker
+- Paper trading accounts
+
+### Filtering by Account
+
+Use the account filter in the Orders view to see trades from specific accounts.
+
+### Disconnecting
+
+To remove a broker connection:
+1. Go to **Settings** > **Broker Connections**
+2. Click the disconnect button next to the account
+3. Confirm the disconnection
+
+<Warning>
+  Disconnecting removes access to future data. Previously imported trades remain in your journal.
+</Warning>
+
+## Data Security
+
+Your broker credentials are never stored by EdgeBook:
+
+- **OAuth authentication** - You log in directly with your broker
+- **Read-only access** - EdgeBook can only view data, not place trades
+- **Encrypted connections** - All data transfer is encrypted
+- **SnapTrade security** - Bank-level security standards
+
+## Sync Frequency
+
+Broker data is synced:
+- When you first connect
+- Periodically in the background
+- When you manually refresh
+
+## Troubleshooting
+
+<AccordionGroup>
+  <Accordion title="Connection failed" icon="circle-xmark">
+    Try disconnecting and reconnecting your broker. Some brokers require re-authentication periodically.
+  </Accordion>
+  <Accordion title="Missing trades" icon="magnifying-glass">
+    Broker data may take a few minutes to sync. Try refreshing the page or wait for the next sync cycle.
+  </Accordion>
+  <Accordion title="Wrong account" icon="building-columns">
+    Make sure you selected the correct account during setup. You can connect additional accounts from Settings.
+  </Accordion>
+</AccordionGroup>
+
+## Related Features
+
+<CardGroup cols={2}>
+  <Card title="Trade Journal" icon="book" href="/features/trade-journal">
+    Add notes and analysis to your imported trades.
+  </Card>
+  <Card title="Chart Gallery" icon="images" href="/features/chart-gallery">
+    Attach charts to your broker-synced trades.
+  </Card>
+</CardGroup>

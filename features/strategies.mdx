@@ -1,0 +1,206 @@
+---
+title: "Strategies & Setups"
+description: "Organize your edge with hierarchical strategies and setups"
+icon: "chess"
+---
+
+## Overview
+
+The Strategies & Setups system helps you organize your trading approach into a clear hierarchy. Define your strategies at the top level, then break them down into specific setups that you trade.
+
+## Understanding the Hierarchy
+
+```
+Strategy (e.g., "Momentum Trading")
+├── Setup 1 (e.g., "Opening Range Breakout")
+├── Setup 2 (e.g., "Gap and Go")
+└── Setup 3 (e.g., "VWAP Bounce")
+```
+
+### Strategies
+High-level trading approaches that define your overall methodology.
+
+**Examples:**
+- Momentum Trading
+- Mean Reversion
+- Trend Following
+- Swing Trading
+- Options Strategies
+
+### Setups
+Specific, repeatable trade scenarios within a strategy.
+
+**Examples:**
+- Opening Range Breakout
+- Bull Flag Continuation
+- Double Bottom Reversal
+- VWAP Bounce
+- Earnings Breakout
+
+## Creating Strategies
+
+<Steps>
+  <Step title="Navigate to Strategies">
+    Click **Strategies** in the sidebar to open the Strategies view.
+  </Step>
+  <Step title="Add New Strategy">
+    Click **+ New Strategy** to create a new strategy.
+  </Step>
+  <Step title="Fill in Details">
+    Add a name and description for your strategy. Explain when and why you use this approach.
+  </Step>
+  <Step title="Save">
+    Click Save to create the strategy.
+  </Step>
+</Steps>
+
+## Adding Setups
+
+Once you have a strategy, add setups to it:
+
+1. Click on a strategy to expand it
+2. Click **+ Add Setup**
+3. Name the setup and describe its criteria
+4. Add detailed notes about entry, exit, and management
+
+## Setup Documentation
+
+Each setup should include:
+
+### Entry Criteria
+- What conditions must be present?
+- What confirms the setup?
+- What invalidates it?
+
+### Risk Management
+- Where is the stop loss?
+- How do you size the position?
+- What's the maximum risk?
+
+### Targets
+- Where are profit targets?
+- How do you trail stops?
+- When do you take partial profits?
+
+### Notes
+- Edge explanation
+- Best market conditions
+- Common mistakes to avoid
+
+<Tip>
+  Use the rich text editor to create checklists in your setup notes. Check off criteria in real-time during trade evaluation.
+</Tip>
+
+## Linking Trades to Setups
+
+When logging a trade, link it to a specific setup:
+
+1. Open the trade detail or creation modal
+2. Select a **Setup** from the dropdown
+3. The trade is now associated with that setup
+
+### Benefits of Linking
+- Track performance by setup
+- Review all trades for a specific setup
+- Identify which setups perform best
+
+## Setup Templates
+
+Speed up setup creation with templates:
+
+### Using Templates
+
+1. When creating a new setup, click **Use Template**
+2. Select from available templates
+3. Customize the template content for your specific setup
+
+### Default Template Sections
+
+```markdown
+## Entry Criteria
+- [ ] Criteria 1
+- [ ] Criteria 2
+- [ ] Criteria 3
+
+## Entry Execution
+- Entry type:
+- Entry trigger:
+
+## Stop Loss
+- Initial stop:
+- Stop placement logic:
+
+## Targets
+- Target 1:
+- Target 2:
+- Target 3:
+
+## Position Sizing
+- Risk per trade:
+- Position size calculation:
+
+## Notes
+- Best conditions:
+- Avoid when:
+```
+
+## Strategy Management
+
+### Active/Inactive Status
+
+Toggle strategies and setups active or inactive:
+
+- **Active** - Appears in trade dropdowns
+- **Inactive** - Hidden from dropdowns but preserved for historical reference
+
+### Reordering
+
+Drag and drop to reorder:
+- Strategies in the list
+- Setups within a strategy
+
+### Editing
+
+Click on any strategy or setup to edit:
+- Update name and description
+- Modify notes and criteria
+- Change active status
+
+## Performance Tracking
+
+<Note>
+  **Coming Soon:** Performance analytics by strategy and setup, including win rate, average P&L, and best/worst performers.
+</Note>
+
+Track how each setup performs:
+- Filter trades by setup to review results
+- Compare performance across setups
+- Identify your most profitable edges
+
+## Best Practices
+
+<AccordionGroup>
+  <Accordion title="Start simple" icon="play">
+    Begin with 2-3 strategies and 3-5 setups each. You can always add more as you develop your trading.
+  </Accordion>
+  <Accordion title="Be specific" icon="bullseye">
+    Vague setups lead to inconsistent trading. Define exact criteria that leave no room for interpretation.
+  </Accordion>
+  <Accordion title="Review and refine" icon="magnifying-glass">
+    Regularly review your setups. Remove ones that don't work. Improve ones that do. Add new discoveries.
+  </Accordion>
+  <Accordion title="Link every trade" icon="link">
+    Always link trades to setups. Trades without a setup assignment often indicate undisciplined trading.
+  </Accordion>
+</AccordionGroup>
+
+## Related Features
+
+<CardGroup cols={2}>
+  <Card title="Pattern Library" icon="shapes" href="/features/pattern-library">
+    Link pattern examples to your setups.
+  </Card>
+  <Card title="Trade Journal" icon="book" href="/features/trade-journal">
+    Document each trade's setup execution.
+  </Card>
+</CardGroup>

@@ -1,0 +1,127 @@
+---
+title: "Chart Gallery"
+description: "Multi-image galleries with zoom, pan, and keyboard navigation"
+icon: "images"
+---
+
+## Overview
+
+Every trade in EdgeBook can have multiple chart screenshots attached. The Chart Gallery provides a powerful way to view, organize, and navigate your trade documentation.
+
+## Adding Images
+
+There are several ways to add chart screenshots to a trade:
+
+### Drag and Drop
+
+Simply drag image files from your desktop or file explorer directly onto:
+- The trade detail view
+- The trade creation modal
+- The main trades area (creates a new trade)
+
+### Paste from Clipboard
+
+1. Copy a screenshot to your clipboard (e.g., from TradingView)
+2. Press `Ctrl+V` / `Cmd+V` in the trade detail view
+3. The image is automatically added to the gallery
+
+### File Upload
+
+1. Click the **+ Add Image** button
+2. Select one or more images from your computer
+3. Images are uploaded and attached to the trade
+
+<Tip>
+  You can upload multiple images at once by selecting them all in the file picker.
+</Tip>
+
+## Gallery View
+
+### Thumbnail Strip
+
+All attached images appear as thumbnails at the bottom of the trade detail view. Click any thumbnail to view it in the main display area.
+
+### Reordering Images
+
+Drag and drop thumbnails to reorder your images. The first image becomes the trade's thumbnail in list views.
+
+### Image Captions
+
+Add captions to your images to describe what each chart shows:
+1. Click the caption area below any image
+2. Type your description
+3. Captions are saved automatically
+
+## Full-Screen Viewer
+
+Click any image to open it in full-screen mode:
+
+### Navigation
+
+| Control | Action |
+|---------|--------|
+| `←` Arrow key | Previous image |
+| `→` Arrow key | Next image |
+| `Escape` | Close viewer |
+| Click outside | Close viewer |
+
+### Zoom and Pan
+
+- **Scroll wheel** - Zoom in/out
+- **Click and drag** - Pan around zoomed image
+- **Double-click** - Reset zoom level
+
+## Image Actions
+
+Each image has a menu with additional actions:
+
+- **Annotate** - Open the annotation editor
+- **Set as Thumbnail** - Make this the trade's cover image
+- **Download** - Save the original image
+- **Delete** - Remove from the trade
+
+## Supported Formats
+
+EdgeBook supports all common image formats:
+
+- PNG (recommended for charts)
+- JPEG
+- GIF
+- WebP
+
+<Note>
+  For best quality, use PNG format for chart screenshots. JPEG compression can make text and lines less clear.
+</Note>
+
+## Image Storage
+
+All images are securely stored in Supabase Storage:
+
+- **Private by default** - Only you can access your images
+- **High resolution** - Original quality preserved
+- **Fast loading** - CDN-backed delivery
+
+## Best Practices
+
+<AccordionGroup>
+  <Accordion title="Capture multiple timeframes" icon="clock">
+    Include charts from different timeframes (daily, hourly, 5-min) to show the complete picture.
+  </Accordion>
+  <Accordion title="Mark key levels before upload" icon="pen">
+    Use your charting platform's tools to mark support, resistance, and entry/exit levels before screenshotting.
+  </Accordion>
+  <Accordion title="Include before and after" icon="arrows-left-right">
+    Capture the setup before entry and the outcome after exit to document the complete trade lifecycle.
+  </Accordion>
+</AccordionGroup>
+
+## Related Features
+
+<CardGroup cols={2}>
+  <Card title="Image Annotations" icon="pen" href="/features/image-annotations">
+    Mark up your charts directly in EdgeBook.
+  </Card>
+  <Card title="Pattern Library" icon="shapes" href="/features/pattern-library">
+    Build patterns from your chart images.
+  </Card>
+</CardGroup>
