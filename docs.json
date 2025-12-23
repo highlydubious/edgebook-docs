@@ -25,6 +25,7 @@
             "group": "Core Features",
             "pages": [
               "features/trade-journal",
+              "features/quick-upload",
               "features/chart-gallery",
               "features/image-annotations",
               "features/pattern-library",
